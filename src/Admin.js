@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
-import "./App.css";
 
 const Admin = () => (
   <div>
-    <nav>
-      <Link to="/">Search</Link>
-      <Link to="/Report">Report</Link>
-    </nav>
+    <ul>
+      <li>
+        <Link to="/">Search</Link>
+      </li>
+      <li>
+        <Link to="/Report">Report</Link>
+      </li>
+    </ul>
     <h1>Admin</h1>
   </div>
 );

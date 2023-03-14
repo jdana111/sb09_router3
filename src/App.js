@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Search from './Search';
 import Report from './Report';
 import Admin from './Admin';
-import "./App.css";
 
 function App() {
   return (
