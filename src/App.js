@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import Search from './Search';
+import Report from './Report';
+import Admin from './Admin';
 import "./App.css";
 
 function App() {
@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Search />} />
+          <Route path="/report" element={<Report />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </BrowserRouter>
     </div>
